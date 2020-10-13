@@ -10,6 +10,7 @@
         <li @click="removerItem(i)" v-for="(item, i) in lista" :key="item">{{ item }}</li>
       </ul>
   </div>
+  
 </template>
 
 <script>
